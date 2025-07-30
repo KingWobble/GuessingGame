@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guess a Number</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <header>
+    <h1>🎯 Guess a Number Game</h1>
+    <p class="tagline">Try to guess the number between 1 and 100!</p>
+  </header>
+
+  <main>
+    <div class="container">
+      <input type="number" id="my_input" min="1" max="100" placeholder="Enter your guess..." />
+      <div id="my_button" class="btn">Submit</div>
+
+      <p id="message"></p>
+      <ul id="history"></ul>
+      <div id="gif_container"></div>
+      <button id="play_again" class="btn" style="display: none;">Play Again</button>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Julian Bernal. Good luck guessing!
+  </footer>
+
+  <script src="guessNum.js"></script>
+</body>
+</html>
